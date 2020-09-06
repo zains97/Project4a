@@ -38,4 +38,4 @@ jobs:
       run: npm install --global surge
       
     - name: Run Surge
-      run: surge ./build web-animation-project4a.surge.sh/ --token ${{secrets.WEB_ANIMATION_PROJECT}}
+      run: surge ./build zain-project4a.surge.sh/ --token ${{secrets.WEB_ANIMATION_PROJECT}}
